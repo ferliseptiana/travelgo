@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>AdminLTE v4 | Dashboard</title><!--begin::Primary Meta Tags-->
+    <title>TravelGo</title><!--begin::Primary Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="AdminLTE v4 | Dashboard">
     <meta name="author" content="ColorlibHQ">
@@ -89,7 +89,7 @@
                         </div>
                     </li> <!--end::Notifications Dropdown Menu--> <!--begin::Fullscreen Toggle-->
                     <li class="nav-item"> <a class="nav-link" href="#" data-lte-toggle="fullscreen"> <i data-lte-icon="maximize" class="bi bi-arrows-fullscreen"></i> <i data-lte-icon="minimize" class="bi bi-fullscreen-exit" style="display: none;"></i> </a> </li> <!--end::Fullscreen Toggle--> <!--begin::User Menu Dropdown-->
-                    <li class="nav-item dropdown user-menu"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> <img src="../../dist/assets/img/user2-160x160.jpg" class="user-image rounded-circle shadow" alt="User Image"> <span class="d-none d-md-inline">Alexander Pierce</span> </a>
+                    <li class="nav-item dropdown user-menu"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> <img src="../../dist/assets/img/user2-160x160.jpg" class="user-image rounded-circle shadow" alt="User Image"> <span class="d-none d-md-inline">Admin</span> </a>
                         <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end"> <!--begin::User Image-->
                             <li class="user-header text-bg-primary"> <img src="../../dist/assets/img/user2-160x160.jpg" class="rounded-circle shadow" alt="User Image">
                                 <p>
@@ -110,107 +110,78 @@
                 </ul> <!--end::End Navbar Links-->
             </div> <!--end::Container-->
         </nav> <!--end::Header--> <!--begin::Sidebar-->
-        <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark"> <!--begin::Sidebar Brand-->
-            <div class="sidebar-brand"> <!--begin::Brand Link--> <a href="./index.html" class="brand-link"> <!--begin::Brand Image--> <img src="../../dist/assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image opacity-75 shadow"> <!--end::Brand Image--> <!--begin::Brand Text--> <span class="brand-text fw-light">AdminLTE 4</span> <!--end::Brand Text--> </a> <!--end::Brand Link--> </div> <!--end::Sidebar Brand--> <!--begin::Sidebar Wrapper-->
+        <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="light"> <!--begin::Sidebar Brand-->
+            <div class="sidebar-brand"> <!--begin::Brand Link--> <a href="./index.html" class="brand-link"> <!--begin::Brand Image--> <img src="../../dist/assets/img/AdminLTELogo.png" alt="TravelGo" class="brand-image opacity-75 shadow"> <!--end::Brand Image--> <!--begin::Brand Text--> <span class="brand-text fw-light">TravelGo</span> <!--end::Brand Text--> </a> <!--end::Brand Link--> </div> <!--end::Sidebar Brand--> <!--begin::Sidebar Wrapper-->
             <div class="sidebar-wrapper">
                 <nav class="mt-2"> <!--begin::Sidebar Menu-->
                     <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu" data-accordion="false">
-                        <li class="nav-item menu-open"> <a href="#" class="nav-link active"> <i class="nav-icon bi bi-speedometer"></i>
+                       <li class="nav-item menu-open"><a href="#" class="nav-link active"> <i class="nav-icon bi bi-speedometer"></i>
                                 <p>
                                     Dashboard
                                     <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item"> <a href="./index.html" class="nav-link active"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Dashboard v1</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./index2.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Dashboard v2</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./index3.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Dashboard v3</p>
-                                    </a> </li>
+                            
                             </ul>
                         </li>
-                        <li class="nav-item"> <a href="./generate/theme.html" class="nav-link"> <i class="nav-icon bi bi-palette"></i>
-                                <p>Theme Generate</p>
-                            </a> </li>
+
                         <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-box-seam-fill"></i>
                                 <p>
-                                    Widgets
+                                    Mobil
                                     <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="./widgets/small-box.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Small Box</p>
+                                        <p>Data Merk</p>
                                     </a> </li>
                                 <li class="nav-item"> <a href="./widgets/info-box.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>info Box</p>
+                                        <p>Data Mobil</p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="./widgets/cards.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Cards</p>
-                                    </a> </li>
+                                
                             </ul>
                         </li>
                         <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-clipboard-fill"></i>
                                 <p>
-                                    Layout Options
+                                    Pemesanan
                                     <span class="nav-badge badge text-bg-secondary me-3">6</span> <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="./layout/unfixed-sidebar.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Default Sidebar</p>
+                                        <p>Data Pemesanan</p>
                                     </a> </li>
                                 <li class="nav-item"> <a href="./layout/fixed-sidebar.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Fixed Sidebar</p>
+                                        <p>Data Jenis Bayar</p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="./layout/layout-custom-area.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Layout <small>+ Custom Area </small></p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/sidebar-mini.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Sidebar Mini</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/collapsed-sidebar.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Sidebar Mini <small>+ Collapsed</small></p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/logo-switch.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Sidebar Mini <small>+ Logo Switch</small></p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/layout-rtl.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Layout RTL</p>
-                                    </a> </li>
+                                    
                             </ul>
                         </li>
                         <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-tree-fill"></i>
                                 <p>
-                                    UI Elements
+                                    Pesanan
                                     <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="./UI/general.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>General</p>
+                                        <p>Data Perjalanan</p>
                                     </a> </li>
                                 <li class="nav-item"> <a href="./UI/icons.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Icons</p>
+                                        <p>Data Pesanan</p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="./UI/timeline.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Timeline</p>
-                                    </a> </li>
+                                
                             </ul>
                         </li>
                         <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-pencil-square"></i>
                                 <p>
-                                    Forms
+                                    Pengaturan
                                     <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="./forms/general.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>General Elements</p>
+                                        <p>Manajemen Akun</p>
                                     </a> </li>
                             </ul>
                         </li>
@@ -377,7 +348,7 @@
                 <div class="container-fluid"> <!--begin::Row-->
                     <div class="row">
                         <div class="col-sm-6">
-                            <h3 class="mb-0">Dashboard</h3>
+                            <h5 class="mb-0">Dashboard</h5>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-end">
@@ -396,8 +367,8 @@
                         <div class="col-lg-3 col-6"> <!--begin::Small Box Widget 1-->
                             <div class="small-box text-bg-primary">
                                 <div class="inner">
-                                    <h3>150</h3>
-                                    <p>New Orders</p>
+                                    <h5>Data Mobil</h5>
+                                    <p>Daftar Mobil</p>
                                 </div> <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path>
                                 </svg> <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
@@ -407,8 +378,8 @@
                         <div class="col-lg-3 col-6"> <!--begin::Small Box Widget 2-->
                             <div class="small-box text-bg-success">
                                 <div class="inner">
-                                    <h3>53<sup class="fs-5">%</sup></h3>
-                                    <p>Bounce Rate</p>
+                                    <h5>Data Pemesanan<sup class="fs-5"></sup></h5>
+                                    <p>Daftar Pemesanan</p>
                                 </div> <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"></path>
                                 </svg> <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
@@ -418,8 +389,8 @@
                         <div class="col-lg-3 col-6"> <!--begin::Small Box Widget 3-->
                             <div class="small-box text-bg-warning">
                                 <div class="inner">
-                                    <h3>44</h3>
-                                    <p>User Registrations</p>
+                                    <h5>Data Pesanan</h5>
+                                    <p>Data Pesanan</p>
                                 </div> <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path d="M6.25 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM3.25 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM19.75 7.5a.75.75 0 00-1.5 0v2.25H16a.75.75 0 000 1.5h2.25v2.25a.75.75 0 001.5 0v-2.25H22a.75.75 0 000-1.5h-2.25V7.5z"></path>
                                 </svg> <a href="#" class="small-box-footer link-dark link-underline-opacity-0 link-underline-opacity-50-hover">
@@ -429,8 +400,8 @@
                         <div class="col-lg-3 col-6"> <!--begin::Small Box Widget 4-->
                             <div class="small-box text-bg-danger">
                                 <div class="inner">
-                                    <h3>65</h3>
-                                    <p>Unique Visitors</p>
+                                    <h5>Data Akun</h5>
+                                    <p>Daftar Akun</p>
                                 </div> <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z"></path>
                                     <path clip-rule="evenodd" fill-rule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z"></path>
@@ -443,7 +414,7 @@
                         <div class="col-lg-7 connectedSortable">
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <h3 class="card-title">Sales Value</h3>
+                                    <h3 class="card-title">Best Seller Product</h3>
                                 </div>
                                 <div class="card-body">
                                     <div id="revenue-chart"></div>
@@ -451,7 +422,7 @@
                             </div> <!-- /.card --> <!-- DIRECT CHAT -->
                             <div class="card direct-chat direct-chat-primary mb-4">
                                 <div class="card-header">
-                                    <h3 class="card-title">Direct Chat</h3>
+                                    <h3 class="card-title">Live Chat</h3>
                                     <div class="card-tools"> <span title="3 New Messages" class="badge text-bg-primary">
                                             3
                                         </span> <button type="button" class="btn btn-tool" data-lte-toggle="card-collapse"> <i data-lte-icon="expand" class="bi bi-plus-lg"></i> <i data-lte-icon="collapse" class="bi bi-dash-lg"></i> </button> <button type="button" class="btn btn-tool" title="Contacts" data-lte-toggle="chat-pane"> <i class="bi bi-chat-text-fill"></i> </button> <button type="button" class="btn btn-tool" data-lte-toggle="card-remove"> <i class="bi bi-x-lg"></i> </button> </div>
@@ -460,41 +431,41 @@
                                     <div class="direct-chat-messages"> <!-- Message. Default to the start -->
                                         <div class="direct-chat-msg">
                                             <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-start">
-                                                    Alexander Pierce
+                                                    Axel Giovanni H
                                                 </span> <span class="direct-chat-timestamp float-end">
-                                                    23 Jan 2:00 pm
+                                                    23 Sept 2:00 pm
                                                 </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../dist/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
-                                                Is this template really for free? That's unbelievable!
+                                                Apakah masih tersedia min?
                                             </div> <!-- /.direct-chat-text -->
                                         </div> <!-- /.direct-chat-msg --> <!-- Message to the end -->
                                         <div class="direct-chat-msg end">
                                             <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-end">
-                                                    Sarah Bullock
+                                                    Admin
                                                 </span> <span class="direct-chat-timestamp float-start">
-                                                    23 Jan 2:05 pm
+                                                    28 Sept 2:05 pm
                                                 </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../dist/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
-                                                You better believe it!
+                                                masih nih bro
                                             </div> <!-- /.direct-chat-text -->
                                         </div> <!-- /.direct-chat-msg --> <!-- Message. Default to the start -->
                                         <div class="direct-chat-msg">
                                             <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-start">
-                                                    Alexander Pierce
+                                                    Heidy
                                                 </span> <span class="direct-chat-timestamp float-end">
-                                                    23 Jan 5:37 pm
+                                                    6 Jun 5:37 pm
                                                 </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../dist/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
-                                                Working with AdminLTE on a great new app! Wanna join?
+                                                Info Pricelist
                                             </div> <!-- /.direct-chat-text -->
                                         </div> <!-- /.direct-chat-msg --> <!-- Message to the end -->
                                         <div class="direct-chat-msg end">
                                             <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-end">
-                                                    Sarah Bullock
+                                                    Admin
                                                 </span> <span class="direct-chat-timestamp float-start">
-                                                    23 Jan 6:10 pm
+                                                    6 Jun 6:10 pm
                                                 </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="../../dist/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
-                                            <div class="direct-chat-text">I would love to.</div> <!-- /.direct-chat-text -->
+                                            <div class="direct-chat-text">bisa liat di data mobil</div> <!-- /.direct-chat-text -->
                                         </div> <!-- /.direct-chat-msg -->
                                     </div> <!-- /.direct-chat-messages--> <!-- Contacts are loaded here -->
                                     <div class="direct-chat-contacts">
@@ -568,7 +539,7 @@
                         <div class="col-lg-5 connectedSortable">
                             <div class="card text-white bg-primary bg-gradient border-primary mb-4">
                                 <div class="card-header border-0">
-                                    <h3 class="card-title">Sales Value</h3>
+                                    <h3 class="card-title">Tracking</h3>
                                     <div class="card-tools"> <button type="button" class="btn btn-primary btn-sm" data-lte-toggle="card-collapse"> <i data-lte-icon="expand" class="bi bi-plus-lg"></i> <i data-lte-icon="collapse" class="bi bi-dash-lg"></i> </button> </div>
                                 </div>
                                 <div class="card-body">
